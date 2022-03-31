@@ -1,17 +1,17 @@
 import React from "react";
 import { NavLinks } from "../constans/constants";
-
+import ProfilePic from "../images/profile.png";
 const Header = () => {
   return (
     <header className="text-gray-400 bg-gray-900 body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
           <img
             src={ProfilePic}
             class="w-8 h-8 text-white p-2 bg-indigo-400 rounded-full"
             alt="Logo"
           />
-          <span className="ml-3 text-xl">Shahzaib ur Rehman</span>  
+          <span className="ml-3 text-xl">Shahzaib ur Rehman</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           {NavLinks.map((NavItem, index) => {
