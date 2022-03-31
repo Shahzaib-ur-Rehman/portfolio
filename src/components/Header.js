@@ -5,7 +5,10 @@ const Header = () => {
   return (
     <header className="text-gray-400 bg-gray-900 body-font">
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <a
+          className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+          href="#"
+        >
           <img
             src={ProfilePic}
             class="w-8 h-8 text-white p-2 bg-indigo-400 rounded-full"
@@ -16,7 +19,7 @@ const Header = () => {
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           {NavLinks.map((NavItem, index) => {
             return (
-              <a key={index} className="mr-5 hover:text-white">
+              <a key={index} href="#" className="mr-5 hover:text-white">
                 {NavItem}
               </a>
             );
