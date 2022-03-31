@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <a
           className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
-          href="#"
+          href="/"
         >
           <img
             src={ProfilePic}
@@ -19,7 +19,7 @@ const Header = () => {
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           {NavLinks.map((NavItem, index) => {
             return (
-              <a key={index} href="#" className="mr-5 hover:text-white">
+              <a key={index} href="/" className="mr-5 hover:text-white">
                 {NavItem}
               </a>
             );
