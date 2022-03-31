@@ -8,7 +8,7 @@ const Header = () => {
         <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
           <img
             src={ProfilePic}
-            class="w-10 h-10 text-white p-2 bg-indigo-400 rounded-full"
+            class="w-8 h-8 text-white p-2 bg-indigo-400 rounded-full"
             alt="Logo"
           />
           <span className="ml-3 text-xl">Shahzaib ur Rehman</span>
